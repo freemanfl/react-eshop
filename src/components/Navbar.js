@@ -46,7 +46,6 @@ const Right = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
 `
 const MenuItem = styled.div`
     font-size: 14px;
@@ -67,7 +66,11 @@ const Navbar = () => {
                     <Search style={{color: "gray", fontSize: 16}}/>
                 </SearchContainer>
             </Left>
-            <Center><Logo>LAMA.</Logo> </Center>
+            <Center>
+                <Logo>
+                    LAMA.
+                </Logo> 
+            </Center>
             <Right>
                    <MenuItem>REGISTER</MenuItem>
                    <MenuItem>SIGN IN</MenuItem>
