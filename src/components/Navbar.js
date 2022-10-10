@@ -1,17 +1,17 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Search } from '@material-ui/icons'
+import { Search, ShoppingCartOutlined } from '@material-ui/icons'
 import Badge from  '@material-ui/core/Badge'
-import MailIcon from  '@material-ui/icons/Mail';
+
 
 const Container = styled.div`
-    height: 60px;
+    
 `
 
 const Wrapper = styled.div`
-    padding: 10px 20px;
+    padding: 1px 20px;
     display: flex;
-    align-items: center; 
+
     justify-content: space-between;
 `
 
@@ -73,7 +73,7 @@ const Navbar = () => {
                    <MenuItem>SIGN IN</MenuItem>
                    <MenuItem>
                         <Badge badgeContent={4} color="primary">
-                                <MailIcon />
+                                <ShoppingCartOutlined />
                         </Badge>
                     </MenuItem>      
             </Right>
