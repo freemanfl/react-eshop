@@ -5,13 +5,13 @@ import Badge from  '@material-ui/core/Badge'
 
 
 const Container = styled.div`
-    height: 60px;
+    
 `
 
 const Wrapper = styled.div`
-    padding: 10px 20px;
+    padding: 1px 20px;
     display: flex;
-    align-items: center; 
+
     justify-content: space-between;
 `
 
@@ -46,12 +46,12 @@ const Right = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-end;
+
 `
 const MenuItem = styled.div`
     font-size: 14px;
     cursor: pointer; 
     margin-left: 25px;
-
 `
 
 
